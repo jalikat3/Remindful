@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+   <title>Remindful</title>
+   <script src="convert.js"></script>
+   <style>
+      body {
+         font-family: Arial, Helvetica, sans-serif;
+         background-color:lightpink;
+      }
+
+      @font-face{font-family: Higheals; src: url("ModernCal.ttf")}
+      h1{
+         text-align: center;
+         font-family: Higheals;
+         font-size: 100px;
+         background-color: white;
+      }
+
+      @font-face{font-family: BoldSerif; src: url("BoldSerif.ttf")}
+      h2{
+         text-align: center;
+         font-family: BoldSerif;
+         font-size: 100px;
+      }
+      
+      label {
+         display: block;
+      }
+
+      #errorMessage {
+         color: red;
+      }
+      textArea{
+         font-size: medium;
+         width:1000px;
+         height: 500px;
+         font-family:Georgia, 'Times New Roman', Times, serif;
+
+      }
+      #journalPrompt{
+         width:200px;
+         height:50px;
+         margin-right: 5px;
+      }
+      #date{
+         margin-bottom: 5px;
+         position: absolute;
+         left: 500px;
+         top: 600px;
+         color: mediumpurple;
+         background-color:white;
+
+      }
+
+      #submitDate{
+         width: 100px;
+         height: 75px;
+         position: absolute;
+         left: 750px;
+         top: 600px;
+         background-color:mediumpurple;
+         color: white;
+      }
+
+      #enterName{
+         color: mediumpurple;
+         size: 100px;
+      }
+
+      @font-face{font-family: BoldSerif; src: url("BoldSerif.ttf")}
+      #journalPrompt{
+         font-family: BoldSerif;
+         font-size: 50px;
+         width: 550px;
+         background-color: mediumpurple;
+         color: white
+      }
+
+      
+      #enterNameTag{
+         font-size: 25px;
+      }
+   </style>
+   
+   <body>
+      <h1>Remindful</h1>
+      <h2 id="nameDisplay">Hello!</h2>
+      <p>
+         <label for="enterName" id="enterNameTag">Enter your name:</label>
+         <input id="enterName" type="text" width="200">
+     </p>
+     <p id="text here">
+        <button id="submit" type="submit">Submit</button>
+        <h3 id="prompt"></h3>
+     </p>
+     <form>
+
+   </form>
+   </body>
+
+</html>
